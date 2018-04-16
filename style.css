@@ -1,0 +1,909 @@
+body
+{
+    width: 100%;
+    background-image: url("images/circle.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left center;
+	font-family: Arial, sans-serif;
+}
+.overlay
+{
+	height: 6018px;
+	background: rgba(255,255,255,0.89);
+}
+
+		
+/* quantcontainer1 */
+.quantcontainer1
+{
+	 background-image: url("images/navigate.jpg");
+	 background-repeat: no-repeat;
+	 min-height:788px;
+	 background-position: center center;
+}
+.quantcontainer1-overlay
+{
+	min-height:788px;
+	background: rgba(31,41,42,0.45);
+}
+.img-content
+{
+	position: relative;
+	min-height:788px;
+}
+.quantcontainer1-info
+{
+	min-height:788px;
+}
+.quantcontainer1-img
+{
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.quantcontainer1-img a 
+{
+	text-decoration:none;
+	display:block;
+	width:255px;
+}
+.quantcontainer1-title
+{
+    min-height: 232px;
+    padding-top: 40px;
+    padding-left: 140px;
+}
+.quantcontainer1-title h1
+{
+    line-height: 58px;
+}
+.quantcontainer1-title span
+{
+	font-family: Raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: rgb(255, 255, 255);	
+	text-transform: uppercase;
+	line-height: 0;
+	word-break: keep-all;
+    white-space: normal;
+}
+.quantcontainer1-form
+{
+	display: block;
+    background: rgba(255,255,255,0.67);
+	border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+	height: 540px;
+    position: absolute;
+    top: 15%;
+    width: 350px;
+}
+.form-title
+{
+	padding: 10px 20px;
+}
+.form-title h2
+{
+	text-align: center;
+	line-height: 1;
+	font-family: Arial; 
+	font-weight: normal;
+	font-style: normal; 
+	font-size: 24px; 
+	color: rgb(93, 93, 93);
+}
+.form-content
+{
+	padding: 0 25px;
+}
+.form-field
+{
+		margin-bottom:10px;
+}
+.form-label
+{
+    width: 200px;
+    font-family: Raleway;
+    font-weight:  bolder;
+    font-size: 18px;
+    line-height: 18px;
+    color: #5d5d5d;
+    display: inline-block;
+}
+.form-field .form_elem
+{
+	width: 100%;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    height: 35px;
+    padding: 0 8px;	
+	font-size: 15px;
+}
+.form-field .form-select
+{
+		border-radius:0px;
+}
+.form_elem:focus
+{
+   outline:0;
+}
+.form-button
+{
+	margin-top:20px;
+}
+.form-button .btn
+{
+	margin: 0 auto;
+    background: rgba(242,0,34,1);
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    height: 45px;
+	font-weight: bolder;
+}
+.btn:focus
+{
+
+    box-shadow: none;
+   
+}
+.btn:hover
+{
+	background: rgba(230,0,27,1);
+    box-shadow: none;
+    color: #fff;
+}
+
+	
+/* quantcontainer2 */
+.quantcontainer2
+{
+	background: rgba(229,229,229,1);
+	width: 100%;
+    min-height: 100px;
+    position: relative;
+}
+.quantcontainer2-block-content
+{
+	 min-height: 100px;
+	 
+}
+.quantcontainer2-text
+{
+	
+	font-size: 36px; 
+	font-family: Raleway; 
+	font-weight: 700; 
+	font-style: normal; 
+	color: rgb(93, 93, 93);
+	top: 30%;
+    left: 30%;
+    position: absolute;
+}
+
+
+/* quantcontainer3 */
+
+.quantcontainer3
+{
+  min-height: 1176px;
+}
+.quantcontainer3-content
+{
+    position:relative;
+}
+.quantcontainer3-text 
+{
+    min-height: 351px;
+    padding: 30px 250px;
+}
+.quantcontainer3-text p
+{
+    line-height: 29px;
+}
+.quantcontainer3-text span
+{
+   font-family: Raleway; 
+   font-weight: 500; 
+   font-style: normal; 
+   color: rgb(93, 93, 93); 
+   font-size:20px;
+}
+.quantcontainer3-list
+{
+	min-height:159px;
+	padding:0 250px;
+}
+.quantcontainer3-list li
+{
+	line-height: 24px;
+}
+.quantcontainer3-list span
+{
+	color: rgb(93, 93, 93); 
+	font-size: 18px; 
+	font-family: Raleway; 
+	font-weight: 500; 
+	font-style: normal;
+	
+}
+.quantcontainer3-holder
+{
+	min-height: 500px;	
+}
+.quantcontainer3-cardholder
+{
+  /* padding:50px 0; */
+  padding: 50px 130px;
+  min-height: 500px;
+}
+.quantcontainer3-cardholder .col-lg-4
+{
+	padding:0px;
+}
+.quantcontainer3-leftcard
+{
+	background: rgba(255,255,255,1);
+	height: 500px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	/* margin: 0 20px; */
+}
+.quantcontainer3-midcard
+{
+	background: rgba(255,255,255,1);
+	height: 500px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	 */
+	/* margin: 0 20px; */
+}
+.quantcontainer3-rightcard
+{ 
+    background: rgba(255,255,255,1);
+	height: 500px;
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	 */
+	/* margin: 0 20px; */
+}
+.quantcontainer3-cardholder .quantcontainer3-cardimg
+{
+	height:220px;
+	padding-top: 20px;
+    text-align: center;
+}
+.quantcontainer3-cardimg img
+{
+	border-radius:50%;
+}
+.quantcontainer3-cardholder .quantcontainer3-cardtext
+{
+	text-align: center;
+    padding: 20px 30px;
+	height: 280px;
+}
+.quantcontainer3-cardtext h4
+{
+color: rgb(93, 93, 93);
+    font-family: Raleway; 
+    font-weight: 600;
+    font-style: normal;
+}
+.quantcontainer3-cardtext p
+{
+  font-size: 17px; 
+  color: rgb(149, 152, 154); 
+  font-family: Raleway;  
+  font-style: normal;
+}
+
+
+/* quantcontainer4 */
+.quantcontainer4
+{
+    min-height: 398px;
+    width:100%;
+    background: rgba(255,255,255,0);
+    background-image: url(images/twitterbackground.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quantcontainer4-content
+{
+	min-height: 398px;
+	position:relative;
+}
+.quantcontainer4-content-block
+{
+	margin: 0 100px;
+	min-height: 398px;
+}
+.quantcontainer4-content-block .img-block
+{
+   height: 178px;
+   margin-top: 30px;
+   text-align:center;
+}
+.quantcontainer4-content-block .text-block{
+	height:56px;
+	text-align:center;
+}
+.quantcontainer4-content-block .text-block p
+{
+   color: rgb(252, 252, 252); 
+   font-family: Raleway;
+   line-height: 29px;
+   font-size: 22px; 
+   font-weight: 500; 
+   font-style: normal;
+}
+.quantcontainer4-content-block .info-block
+{
+	padding-top: 65px;
+	min-height: 234px;
+}
+.quantcontainer4-content-block .info-block h2
+{
+	line-height: 45px;
+	color: rgb(255, 255, 255); 
+	font-family: Arial; 
+	font-size: 36px; 
+	font-style: normal; 
+	font-weight: 700;
+	padding-right: 120px;
+    padding-bottom: 10px;
+}
+
+.quantcontainer4-content-block .info-block p
+{
+	color: rgb(255, 255, 255); 
+	font-family: Arial, sans-serif; 
+	font-weight: 400;
+	font-style: normal; 
+	font-size: 16px;
+	padding-right: 60px;
+}
+
+
+/* quantcontainer5 */
+.quantcontainer5
+{
+   min-height: 1596px;
+}
+.quantcontainer5-content
+{
+	min-height: 1596px;
+	position:relative;
+}
+.quantcontainer5-container
+{
+	padding:20px 200px;
+	position:relative;
+}
+.quantcontainer5-header
+{
+	text-align:center;
+	padding-top: 70px;
+}
+.quantcontainer5-header h1
+{
+	line-height: 58px;
+	font-size: 48px;
+	font-family: Raleway; 
+	font-weight: 700; 
+	font-style: normal; 
+	color: rgb(93, 93, 93);
+}
+.quantcontainer5-text-block
+{
+	position:relative;
+}
+
+.quantcontainer5-content-block
+{
+	display: block;
+    background: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+	padding: 10px 50px;	
+}
+.quantcontainer5-content-block p 
+{
+	font-size: 18px;
+	color: rgb(149, 152, 154);
+	font-family: Raleway; 
+	font-weight: 400; 
+	font-style: normal;
+}
+.quantcontainer5-content-block h4
+{
+   color: rgb(93, 93, 93); 
+   font-family: Raleway; 
+   font-weight: 600; 
+   font-style: normal;
+}
+.quantcontainer5-description-block
+{
+	width: 700px;
+}
+.quantcontainer5-description-block h4
+{
+	text-align: center;
+	color: rgb(93, 93, 93);
+	font-family: Raleway; 
+	font-weight: 600; 
+	font-style: normal;
+}
+.quantcontainer5-description-block p
+{
+	font-size: 18px;
+	color: rgb(149, 152, 154); 
+	font-family: Raleway; 
+	font-weight: 400; 
+	font-style: normal;
+	
+}
+.quantcontainer5-text-block .image-container
+{
+	height: 34px;
+}
+
+.quantcontainer5-text-block .image-container img
+{
+	position: absolute;
+    top: 120px;
+    left: 340px;
+   
+}
+.quantcontainer5-text-block .arrow-container img
+{
+       top: 145px;
+}
+.quantcontainer5-row
+{
+	margin-bottom:30px;
+}
+.quantcontainer5-col
+{
+	height:333px;
+}
+.quantcontainer5-col
+{
+   padding: 10px 20px;
+}	
+.quantcontainer5-col p 
+{
+	font-size:18px;
+}
+.right-arrow-container
+{
+	left: 279px;
+    top: 80px;
+    z-index: 60;
+    position: absolute;
+	
+}
+.left-arrow-container{
+	left: -50px;
+    top: 115px;
+    z-index: 66;
+    position: absolute;
+}
+.left-column-block
+{
+	margin-right:30px;
+}
+.right-column-block
+{
+	margin-left:30px;
+}
+.quantcontainer5-text-block .text-area
+{
+	padding: 20px 20px; 
+}
+.logo-container
+{
+	display: inline-block;
+    float: left;
+}
+.quantcontainer5-text-block .content-area
+{
+	padding-left: 80px;
+    padding-right: 10px;
+}
+
+
+/* quantcontainer6 */
+.quantcontainer6
+{
+    min-height: 233px;
+	background-image: url(images/twitterbackground.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quantcontainer6 p
+{
+	text-align: center;
+	line-height: 38px;
+	font-family: Raleway; 
+	font-weight: 700; 
+	font-style: normal; 
+	color: rgb(255, 255, 255); 
+	font-size: 36px;
+	padding: 100px 0;
+    margin: 0px;
+}
+
+
+/* quantcontainer7 */
+.quantcontainer7
+{
+   background: rgba(255,255,255,1);
+   min-height: 200px;
+   background
+
+}
+.quantcontainer7-content
+{
+   min-height: 200px;
+   position:relative;
+
+}
+.quantcontainer7-para
+{
+   min-height: 200px;
+   padding: 50px 150px;
+
+}
+.quantcontainer7 p
+{
+	text-align: center;
+	line-height: 29px;
+	font-family: Raleway; 
+	font-weight: 500; 
+	font-style: normal; 
+	color: rgb(93, 93, 93);
+	font-size: 20px;
+}
+
+
+/* quantcontainer8 */
+.quantcontainer8
+{
+	background: rgba(255,255,255,1);
+    min-height: 501px;
+
+}
+.quantcontainer8-content
+{
+	height: 501px;
+	position:relative;
+}
+.quantcontainer8-content h1{
+	line-height: 35px;
+	text-align: center;
+	font-family: Raleway; 
+	font-weight: 600; 
+	font-style: normal; 
+	color: rgb(93, 93, 93); 
+	font-size: 36px;
+	padding-top: 35px;
+}
+.quantcontainer8-info
+{
+	min-height: 421px;
+	padding: 60px 100px;
+}
+.quantcontainer8-info .info-content
+{
+	height: 297px;
+	
+}
+.info-header
+{
+	text-align:center;
+}
+.info-header h2
+{
+	font-size: 23px; font-family: Raleway; 
+	font-weight: 700; 
+	font-style: normal; 
+	color: rgb(93, 93, 93);
+}
+
+.info-img
+{
+	 text-align:center;
+	 padding: 10px 0;
+}
+.info-img img{
+	 border-radius: 290px;
+	
+}
+.info-text
+{
+	text-align:center;
+}
+.info-text p 
+{
+	font-family: Raleway;
+	font-weight: 500;
+	font-style: normal; 
+	font-size: 18px; 
+	color: rgb(93, 93, 93);
+	margin-bottom:5px;
+}
+.action-area .action-content
+{
+	display: inline-block;
+    width: 100px;
+}
+.action-area .bio
+{
+	 width: 110px;
+}
+.action-content img{
+	float:left;
+}
+.action-content a 
+{
+	text-decoration:underline;
+	color: #74c6c7;
+	font-family: Raleway;
+	font-weight: 400; 
+	font-style: normal;
+}
+
+
+/* quantcontainer9 */
+.quantcontainer9
+{
+    min-height: 469px;
+    background-image: url(images/hallway.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.quantcontainer9-content
+{
+	height: 469px;
+	position: relative;
+}
+.quantcontainer9-overlay
+{
+	height: 469px;
+	background: rgba(16,17,25,0.72);	
+}
+
+.quantcontainer9-content .image-content
+{
+	display:inline-block;
+	position: absolute;
+    top: 30px;
+    left: 120px;
+}
+.quantcontainer9-content .text-content
+{
+    width: 451px;  
+    position: absolute;
+    top: 70px;
+    left: 170px;
+}
+.text-content p 
+{
+	line-height: 34px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 27px;
+    margin-bottom: 0px;
+}
+.text-content span
+{
+	color: rgb(116, 198, 198); 
+	font-size: 17px;
+	line-height: 16px;
+	padding-left: 240px;
+}
+.quantcontainer9-content  .image-container
+{
+	display: inline-block;
+	position: absolute;
+    left: 720px;
+    top: 180px;
+}
+.quantcontainer9-content .image-container img
+{
+    width: 263px;
+    height: 258px;
+    border-radius: 290px;
+}
+
+
+/* quantcontainer10 */
+.quantcontainer10
+{
+    min-height: 265px;
+    background-image: url(images/twitterbackground.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quantcontainer10-content
+{
+	min-height: 265px;
+	position:relative;
+}
+.quantcontainer10-header
+{
+	padding-top: 60px;
+}
+.quantcontainer10-header h1 
+{
+	text-align: center; 
+	line-height: 29px;
+	font-family: Raleway; 
+	font-weight: 600; 
+	font-style: normal; 
+	color: rgb(255, 255, 255); 
+}
+.quantcontainer10-button 
+{
+    padding: 30px 420px;
+    display: inline-block;
+}
+.quantcontainer10-button .btn
+{
+    background: rgba(88,188,189,1);
+    box-shadow: none;
+    color: #fff;
+	width: 234px;
+    height: 49px;
+	text-align: center;
+	font-weight: 600;
+    border-radius: 96px;
+	}
+.quantcontainer10-button .btn:hover
+{
+	background: rgba(73,178,179,1);
+    box-shadow: none;
+    color: #fff;
+}
+.quantcontainer10-button .btn.active
+{
+    background: rgba(73,178,179,1);
+    box-shadow: none;
+    color: #fff;	
+}
+	
+		
+/* quantcontainer11 */
+.quantcontainer11
+{
+   min-height: 256px;
+   background: rgba(0,0,0,1);
+}
+.quantcontainer11-content
+{
+	 min-height: 256px;
+	position:relative;
+	
+}
+.quantcontainer11-img-container
+{
+    text-align: center;
+	padding-top: 50px;	
+}
+.quantcontainer11-img-container img
+{
+    width: 280px;
+}
+.quantcontainer11-text
+{
+	padding-top:20px;
+}
+.quantcontainer11-text p 
+{
+	text-align: center; 
+	line-height: 15px;
+	color: rgb(93, 93, 93); 
+	font-family: Raleway; 
+	font-weight: 300; 
+	font-style: normal;
+}
+.quantcontainer11-text span 
+{
+color: rgb(229, 229, 229);
+}
+
+/*  RESPONSIVE  */
+
+@media only screen and (max-width:768px)
+{
+.quantcontainer3-cardholder .quantcontainer3-cardtext
+{
+    padding: 0px 20px;
+}
+.quantcontainer4
+{
+background-attachment: scroll;
+}
+.quantcontainer6{
+background-attachment: scroll;
+}
+}
+
+@media only screen and (min-width: 770px) and (max-width:1024px) {
+.quantcontainer1-img
+{
+	padding-left:0px;
+}
+.quantcontainer1-title
+{
+    padding-left:0px;
+}
+.quantcontainer2-text
+{
+	left: 25%;
+}
+.quantcontainer3-text
+{
+	padding: 30px 160px;
+}
+.quantcontainer3-list
+{
+	padding: 0 160px;
+}	
+.quantcontainer3-cardholder .quantcontainer3-cardtext
+{
+    padding: 0px 20px;
+}	
+	
+.quantcontainer4-content-block .info-block h2
+{
+	padding-right:0px;
+}	
+.quantcontainer4-content-block .info-block p
+{
+	padding-right:0px;
+}
+.quantcontainer3-cardholder
+{
+
+ padding: 50px 0;
+}
+.quantcontainer5-container
+{
+	padding: 20px 100px;
+}
+.quantcontainer7-para
+{
+	padding: 50px 75px;
+}
+.quantcontainer8-info
+{
+	padding: 60px 30px;
+}
+.quantcontainer9-content .image-container
+{
+	left:640px;
+}
+.quantcontainer10-button
+{
+    padding: 30px 360px;
+}
+.quantcontainer4
+{
+background-attachment: scroll;
+}
+.quantcontainer6{
+    background-attachment: scroll;
+}
+}
+
+
